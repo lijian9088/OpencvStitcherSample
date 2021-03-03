@@ -49,7 +49,7 @@ Java_com_lyz_opencvsample_ImagesStitchUtil_stitchImages(JNIEnv *env, jclass type
 //    //stitcher.setRegistrationResol(0.6);
 //    // stitcher.setWaveCorrection(false);
 //    /*=match_conf默认是0.65，我选0.8，选太大了就没特征点啦,0.8都失败了*/
-////    detail::BestOf2NearestMatcher *matcher = new detail::BestOf2NearestMatcher(false, 0.5f);
+//    detail::BestOf2NearestMatcher *matcher = new detail::BestOf2NearestMatcher(true, 0.3f);
 //    detail::BestOf2NearestMatcher *matcher = new detail::BestOf2NearestMatcher(false, 0.7f);
 //    stitcher->setFeaturesMatcher(matcher);
 //    stitcher->setBundleAdjuster(new detail::BundleAdjusterRay());
